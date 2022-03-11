@@ -11,7 +11,7 @@ Online Banking Concept created using Django Web Framework.
 * Interest calculation depending on the Bank Account type
 * Using date we can check transaction report 
 * We can check balance after every transaction in the Transaction Report
-* Calculate Monthly Interest Using Celery Scheduled tasks
+* Calculate Monthly Interest 
 * More efficient & user-friendly
 
 ## Project Installation
@@ -35,7 +35,7 @@ cd banking-system
 
 Install development dependencies,
 ```bash
-pip install -r requirements.txt
+python -m pip install –-user -r requirements.txt
 ```
 
 Migrate Database,
